@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UFT-8">
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		
+	<head>
+	
+	<body background="image.jpg" >
+	
+	<h1> Robert Sonntag </h1>
+	
+
+	<nav id="NavId">
+		<ul id="list">
+			
+				<li><a href = "profile.html" >Home</a> </li>
+				<li><a href = "about.html" >About</a> </li>
+				<li><a href = "contact.html" >Contact</a> </li>
+
+				<div id="added" color="white" align="left" > 
+	
+					<a target="_blank" title="find us on Facebook" href="http://www.facebook.com"> <img id="buttons" alt="follow me on facebook" src="facebook.png" border=0></a>
+					<a target="_blank" title="My profile" href="http://www.linkedin.com"> <img id="buttons" alt="My profile" src="linkedinbutton.jpg" border=0 ></a>
+		
+				</div>		
+	
+		</ul>
+	
+		
+	</nav>
+	
+	<section>
+	
+	<img id="profile" src="profile.jpg">
+	
+	<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio mauris, imperdiet eget massa eu, iaculis lacinia mauris. Donec vitae ullamcorper massa. Praesent consectetur libero ut felis malesuada, nec malesuada eros venenatis. Nulla facilisi. Fusce finibus, ligula et sollicitudin ullamcorper, est urna tempus tellus, non cursus leo odio a mi. Nam tortor erat, commodo sed placerat eget, porta lobortis nunc. Ut at aliquam odio. Vivamus lobortis quam et sapien interdum consequat. Mauris ut egestas justo, eu pellentesque sem. Nullam sodales nec purus vel luctus. Mauris quis aliquet arcu, vitae posuere dolor. Duis cursus tellus vel nisl egestas ultricies. Maecenas id congue diam.
+	</p>
+	
+	<p>
+In ac nulla scelerisque, ultricies felis ut, porttitor sem. Nunc vestibulum ante tellus, vitae eleifend tellus sagittis vel. Duis et viverra mauris, a accumsan justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Etiam egestas tempus mi, eget semper dui posuere ut. Fusce in commodo sem, eget venenatis neque. Nulla porttitor mi ligula, ut mollis arcu venenatis vitae. Donec fermentum purus eu luctus finibus. Sed justo velit, congue ut orci interdum, sollicitudin hendrerit odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus volutpat placerat ipsum sed semper.
+</p>
+<p>
+Proin vitae orci accumsan, cursus nisi vel, semper eros. Aliquam vel ullamcorper risus. Suspendisse ut laoreet neque, id consectetur neque. Nullam vel varius arcu. Pellentesque a nisl vitae tellus fermentum semper. Duis efficitur, dui at ultricies mattis, metus nibh tristique nibh, et feugiat risus lectus eget ipsum. Duis massa justo, maximus at sapien et, ultrices egestas lacus. Morbi facilisis venenatis erat vel efficitur. Duis nec eros auctor, porta metus rutrum, porta arcu. Vivamus tempor leo ut massa faucibus, non scelerisque orci laoreet. Aenean ac ornare magna, id cursus sem. Sed quis felis bibendum, sollicitudin metus ut, porta est. Ut ornare, lectus ut molestie placerat, nunc diam vulputate sapien, at porta justo purus eu orci. Mauris convallis lacus sed leo congue hendrerit. Sed laoreet ipsum ut mauris semper varius.
+</p>
+<p>
+Phasellus rhoncus, risus a tincidunt pulvinar, magna risus faucibus lectus, vel vulputate metus ipsum eu odio. Vivamus et risus neque. Nullam metus justo, tincidunt ac sem non, congue cursus purus. Sed tempus egestas nulla a auctor. Aliquam porta et felis egestas tincidunt. Duis quis efficitur elit. Mauris scelerisque ut nisl pulvinar convallis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis eu ex feugiat, euismod sapien non, placerat quam. Vestibulum et lectus congue, laoreet nisi nec, dictum eros. Nunc scelerisque aliquet porttitor. Etiam malesuada mi quis bibendum euismod. Integer est lacus, semper quis sem id, fringilla luctus magna. Vivamus risus ipsum, iaculis sed magna sed, ullamcorper interdum tellus. Nunc id dictum metus, a tempor justo.
+</p>
+<p>
+Nunc pretium eleifend rhoncus. Vivamus mollis, eros vitae fringilla dictum, ante tellus suscipit libero, consectetur porttitor leo massa in erat. Vestibulum vel leo sagittis, dictum ex a, ullamcorper tortor. Donec sit amet tempor arcu. Nunc nec lectus a eros ullamcorper euismod vel sed turpis. Donec nunc mi, imperdiet eget nibh eu, ornare accumsan arcu. Aenean non lobortis ligula, et iaculis mi. Vivamus non semper magna. Vestibulum eu placerat mauris, ac rutrum risus. In elementum, dui placerat vestibulum elementum, lacus neque laoreet turpis, pulvinar feugiat dui nisi vel leo. Cras sollicitudin arcu nec convallis molestie. Praesent nisi erat, iaculis ac mattis id, congue sit amet risus. Suspendisse ullamcorper turpis nec purus iaculis varius aliquet nec nulla.
+</p>	
+	Name: <input type="text" id="Name" value="">
+	
+	
+	Phone Number: <input type="text" id="PhoneNo" value="">
+	
+	<button onclick="myFunction()">Try it</button>
+	
+	<script>
+	
+	
+	function myFunction() {
+	
+	
+   var H = document.getElementById("Name").value 
+   var G = document.getElementById("PhoneNo").value 
+   
+   //constants 
+   var COLS = 26;
+   var ROWS = 26;
+   
+   var EMPTY=0, SNAKE=1, FRUIT=2;
+   
+	   var grid = {
+	   width: null,
+	   height: null,
+	   _grid: null,
+	   
+		   init: function(d, c, r) {
+		   
+		   
+		   }
+		   
+		   set: function(val, x, y) {
+		   
+		   
+		   }
+		   
+		   get: function(x, y) {
+		   
+		   
+		   }
+	   
+	   }
+   
+		var snake = {
+		
+		direction: null,
+		_queue: null,
+		
+			init: function(d, x, y) {
+		   
+		   
+		   }
+		   
+		   set: function(x, y) {
+		   
+		   
+		   }
+		   
+		   get: function() {
+		   
+		   
+		   }
+		
+		
+		}
+	
+}
+
+
+	</script>
+	</section>
+	
+	
+	<footer>
+	
+	Copywrite by R.SONNTAG
+	
+	</footer>
+	
+	
+	
+	
+	
+	</body>
+	
+	
+	
+	
+	
+	</html>

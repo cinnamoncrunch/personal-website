@@ -1,0 +1,74 @@
+
+body{
+	
+	
+}
+
+section{
+	
+	margin-top: 30px;
+}
+
+p{
+	
+	color: black;
+	margin-left: 250px;
+	margin-right: 20px;
+	
+}
+
+h1{
+	background-color: rgba(255, 12, 20, 0.7);
+	font-size: 350%;
+	position: relative;
+    text-align: center;
+    top: 15px;
+	
+	border:1px solid black;
+	 left:0%;
+	 right:0%;
+	 margin: 0 auto;
+}
+
+li{
+	list-style-type:none;
+	
+}
+
+#profile{
+	
+	height: 30%;
+	width: 30%;
+	float: right;
+	
+	
+	
+	
+	
+}
+
+#NavId{
+	border:1px solid black;
+	position: fixed;
+	line-height:30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    height:200px;
+    width: 200px;
+    float:left;
+	margin-left: 0px;
+    padding:5px; 
+	top: 88px
+	
+
+}
+
+footer{
+	
+	   background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+	position: relative;
+	
+}
